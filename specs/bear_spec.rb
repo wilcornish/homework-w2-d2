@@ -27,4 +27,17 @@ class BearTest < MiniTest::Test
     assert_equal("Grizzly", @bear.type)
   end
 
+  def test_get_stomach_count
+    assert_equal(0, @bear.stomach().count())
+    refute_nil(@bear.stomach().count())
+  end
+
+  def test_food_count
+    assert_equal(0, @bear.food_count())
+  end
+  
 end
+#   def test_get_fish_from_fiver
+#     assert_equal(1)
+#
+# end
