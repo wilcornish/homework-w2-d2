@@ -15,6 +15,6 @@ class Bear
   def eat(river)
     eaten_fish = river.fish_population().sample()
     @stomach.push(eaten_fish)
-    remove = river.fish_population().index(eaten_fish.to_s)
+    river.fish_population().delete(eaten_fish)
   end
 end
