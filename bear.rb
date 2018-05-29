@@ -17,4 +17,9 @@ class Bear
     @stomach.push(eaten_fish)
     river.fish_population().delete(eaten_fish)
   end
+
+  def roar
+    return "Roar"
+  end
+
 end
