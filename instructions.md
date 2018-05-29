@@ -16,6 +16,6 @@ We are going to build a small ecosystem! We want to create an ecosystem made up 
 
 ## Extensions
 
-- A bear could have a roar method
+<!-- - A bear could have a roar method -->
 <!-- - A bear could have a food_count method -->
 <!-- - A river could have a fish_count method -->
